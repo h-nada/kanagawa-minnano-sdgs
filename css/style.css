@@ -653,6 +653,21 @@
     .about7:nth-child(2n) {
         margin-right: 0
     }
+    /* 受賞事例 equal-height buttons */
+    .about6--equal-height {
+        align-items: stretch
+    }
+    .about6--equal-height .about7 {
+        display: flex
+    }
+    .about6--equal-height .about7 a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 1.5rem 2rem
+    }
     .about8 {
         width: 100%;
         text-align: center;
@@ -1511,6 +1526,7 @@
         font-size: 1.5rem;
         margin-bottom: 2rem;
         letter-spacing: 0;
+        text-align: center;
         border: 2px solid #00347c
     }
     .about7 a span::after {
@@ -1533,6 +1549,13 @@
     }
     .about7:nth-child(2n) {
         margin-right: 0
+    }
+    /* 受賞事例 equal-height buttons */
+    .about6--equal-height .about7 a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box
     }
     .about8 {
         width: 100%;
